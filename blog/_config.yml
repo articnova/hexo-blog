@@ -7,13 +7,12 @@ title: Not So Merciless
 subtitle: 
 description: the stuff
 author: Michael Lau
-language: default
+language: en-GB
 timezone:
-twitter: http://twitter.com/articnova
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://notsomerciless.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -64,9 +63,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: carbon
+theme: hexo-theme-carbon
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: 
+  
+# Custom Links
+twitter: http://twitter.com/articnova
+github: https://github.com/articnova
+google_analytics: UA-69535226-1
